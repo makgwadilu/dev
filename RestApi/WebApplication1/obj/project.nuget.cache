@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "DpqpBBApSPnUWcMbxM11znMkMdQVWJQxho8Ps/9qKpKStCb+xrgh0Lxfr8Js888S4OMIryIDkjqOee+RjIxJcQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucertm\\source\\repos\\WebApplication1\\dev\\RestApi\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucertm\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\lucertm\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
