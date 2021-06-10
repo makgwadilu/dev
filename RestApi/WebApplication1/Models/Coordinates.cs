@@ -7,7 +7,7 @@ namespace WebApplication1.Models
 {
     public class Coordinates
     {
-        public double Lan { get; set; }
+        public double Lat { get; set; }
         public double Lon { get; set; }
 
     }

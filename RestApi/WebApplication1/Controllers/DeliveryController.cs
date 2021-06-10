@@ -25,7 +25,7 @@ namespace WebApplication1.Controllers
 
         [HttpGet("[action]")]
         ///api/Delivery/GetDelivery
-        public List<Delivery> GetDelivery()
+        public List<Delivery> GetDeliveries()
         {
 
             var json = System.IO.File.ReadAllText(folderDetails);
@@ -43,7 +43,7 @@ namespace WebApplication1.Controllers
         ///api/Delivery/CreateDelivery
         public IActionResult CreateDelivery([FromBody] object jsonString)
         {
-            List<Delivery> deliveries = GetDelivery();
+            List<Delivery> deliveries = GetDeliveries();
 
             using (StreamWriter file = System.IO.File.CreateText(folderDetails))
             {
